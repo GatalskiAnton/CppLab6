@@ -1,7 +1,6 @@
 #pragma once 
 #include <cassert>
 #include "class.h"
-#include <numeric>
 int NOD(int a, int b)
 {
 	while (a > 0 && b > 0) {
