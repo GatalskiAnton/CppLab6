@@ -1,4 +1,5 @@
 #pragma once
+#include <numeric>
 class Fraction {
 private:
     int numerator;
