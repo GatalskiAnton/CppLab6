@@ -1,5 +1,6 @@
-﻿#include <iostream>
+#include <iostream>
 #include "class.h"
+#include "class.cpp"
 int main()
 {
     Fraction fraction(6, 9);
