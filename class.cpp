@@ -55,7 +55,7 @@ Fraction AddingFraction(Fraction fraction_1, Fraction fraction_2) {
 	    Fraction ResultFraction(NewDenominator, fraction_1.GetDenominator());
 		return ResultFraction;
 	}
-	else 
+	else
 	{
 		Fraction ResultFraction((int)(fraction_2.GetDenominator() * fraction_1.GetNumerator() + fraction_1.GetDenominator() * fraction_2.GetNumerator()), (int)(fraction_2.GetDenominator() * fraction_1.GetDenominator()));
 		return ResultFraction;
