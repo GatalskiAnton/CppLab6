@@ -11,4 +11,5 @@ public:
     Fraction(const Fraction& fraction);
     Fraction ReduceFraction();
     void GetFraction();
+    Fraction AddingFraction(Fraction fraction_1, Fraction fraction_2);
 };
